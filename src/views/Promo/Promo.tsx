@@ -141,7 +141,7 @@ const Promo: FC = () => {
         setTimerSeconds(timerSeconds - 1);
       } else {
         clearInterval(countdown);
-        // navigate("/")
+        navigate("/")
       }
     }, 1000);
 
