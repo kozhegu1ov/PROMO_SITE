@@ -1,0 +1,103 @@
+.main{
+    background: url("../../assets//images/promo-zone_1.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .aside{
+        max-width: 380px;
+        width: 100%;
+        height: 100%;
+        background: #86D3F4;
+        text-align: center;
+        &_title{
+            padding-top: 71px;
+            font-size: 26px;
+            font-weight: 400;
+        }
+        &_phoneNumber{
+            margin: 13px 0;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        &_subtitle{
+            margin-top: 13px;
+            font-size: 14px;
+        }
+        &_btnNumber{
+            width:88px;
+            height: 52px;
+            border: 2px solid #000;
+            background: none;
+            font-size: 16px;
+            font-weight: 500;
+            &_backspace{
+                width: calc(88px * 2 + 10px);
+            }
+        }
+        &_boxBtns{
+            max-width: 284px;
+            width: 100%;
+            margin: 33px auto;
+            display: flex;
+            justify-content: space-between;
+            grid-gap: 10px;
+            flex-wrap: wrap;
+        }
+        &_boxAgree{
+            display: flex;
+            grid-gap: 20px;
+            justify-content: center;
+            align-items: center;
+            color: #565656;
+            font-size: 14px;
+            font-weight: 400;
+            & > svg, p{
+                cursor: pointer;
+            }
+        }
+        &_btnConfirm{
+            margin-top: 16px;
+            max-width: 284px;
+            width: 100%;
+            height: 52px;
+            background: none;
+            color: #4E4E4E;
+            font-size: 16px;
+            font-weight: 500;
+            border: 1px solid #4E4E4E;
+        }
+        &_elementSelected{
+            background-color: #000;
+            color: white;
+            *{
+                stroke-width: 6;
+            }
+        }
+        &_validation{
+            color: #EA0000;
+        }
+        &_boxApplication{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2{
+                font-size: 32px;
+                font-weight: 700;
+            }
+            p{
+                margin-top: 15px;
+                font-size: 14px;
+                font-weight: 400;
+                max-width: 284px;
+                width: 100%;
+            }
+        }
+    }
+    .closeX_icon{
+        padding: 20px;
+        cursor: pointer;
+    }
+
+}
